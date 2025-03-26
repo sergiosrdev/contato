@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - SR ADVOCACIA</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>SR ADVOCACIA</h1>
+    </header>
+    <main>
+        <section class="contact-container">
+            <h2>Envie uma mensagem</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Email</button>
+                <button type="button" onclick="sendWhatsApp()">Enviar WhatsApp</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; SR ADVOCACIA 2025 - Todos os direitos reservados</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
